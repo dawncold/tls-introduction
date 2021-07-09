@@ -67,7 +67,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 <div grid="~ cols-2 gap-2">
 <div>
-<img src="serverkeyexchange.png"/>
+<img src="/serverkeyexchange.png"/>
 </div>
 
 <div>
@@ -117,10 +117,10 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 <div grid="~ cols-2 gap-2">
 <div>
-<img src="crl.png"/>
+<img src="/crl.png"/>
 </div>
 <div>
-<img src="ocsp.png"/>
+<img src="/ocsp.png"/>
 </div>
 </div>
 
