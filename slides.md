@@ -73,8 +73,17 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 <div>
 
 * RSA weakness
-* ServerKeyExchange: send ECDHE parameters
-* ClientKeyExchange: send ECDHE parameters
+    * Forward Secrecy
+* ServerKeyExchange: 
+    * select curve
+    * generate ephemeral private key, s
+    * calculate public key, sG
+    * send to client
+* ClientKeyExchange:
+    * use selected curve
+    * generate ephemeral private key, c
+    * calculate public key, cG
+    * send to server
 * generated same pre-master secret, then generated symmetric key
 
 </div>
