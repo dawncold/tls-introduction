@@ -13,7 +13,9 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 <div>
 
-* Provides communication security when communicating across the network
+* TLS is stand for Transport Layer Security
+* It provides communication security
+* SSL 3.0 -> TLS 1.0 -> TLS 1.1 -> TLS 1.2 -> TLS 1.3
 * On the top of TCP
 * Can be on UDP
 </div>
